@@ -15,14 +15,14 @@ class Blog extends Component{
         return<>
         <section className="header-sub">
                 <nav>
-                    <a><img alt="logo" src="https://res.cloudinary.com/imagelinks/image/upload/v1645252188/new%20app/logo_evmovp.png"/></a>
+                    <img alt="logo" src="https://res.cloudinary.com/imagelinks/image/upload/v1645252188/new%20app/logo_evmovp.png"/>
                     <div className="nav-links">
                         <ul>
-                            <Link to="/"><li>Home</li></Link>
-                            <Link to="/about"><li>About</li></Link>
-                            <Link to="/cource"><li>Cource</li></Link>
-                            <Link to="/blog"><li>Blog</li></Link>
-                            <Link to="/contact"><li>Contact Us</li></Link>
+                            <Link className="navs" to="/"><li>Home</li></Link>
+                            <Link className="navs" to="/about"><li>About</li></Link>
+                            <Link className="navs" to="/cource"><li>Cource</li></Link>
+                            <Link className="navs" to="/blog"><li>Blog</li></Link>
+                            <Link className="navs" to="/contact"><li>Contact Us</li></Link>
                         </ul>
                         
                     </div>
@@ -30,11 +30,11 @@ class Blog extends Component{
                     {menu&&<div className="mob-menu">
                     <RiCloseFill  className="close-icon" size={24} onClick={this.onClose}/>
                         <ul>
-                            <Link to="/"><li>Home</li></Link>
-                            <Link to="/about"><li>About</li></Link>
-                            <Link to="/cource"><li>Cource</li></Link>
-                            <Link to="/blog"><li>Blog</li></Link>
-                            <Link to="/contact"><li>Contact Us</li></Link>
+                            <Link className="navs" to="/"><li>Home</li></Link>
+                            <Link className="navs" to="/about"><li>About</li></Link>
+                            <Link className="navs" to="/cource"><li>Cource</li></Link>
+                            <Link className="navs" to="/blog"><li>Blog</li></Link>
+                            <Link className="navs" to="/contact"><li>Contact Us</li></Link>
                         </ul>
                     </div>
                         }

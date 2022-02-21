@@ -39,7 +39,6 @@ nav img {
     text-decoration: none;
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
 }
 .nav-links ul li::after{
     content: "";
