@@ -1,0 +1,54 @@
+.header-sub{
+    text-align: center;
+    background: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)),url("https://res.cloudinary.com/imagelinks/image/upload/v1645252187/new%20app/background_uvc3ah.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+.header-sub h1{
+    text-align: center;
+}
+.nav-head{
+    color: white;
+    margin-top: 35px;
+}
+.about-body{
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.main-about{
+    display: flex;
+}
+@media (max-width:700px){
+.main-about{
+    display: flex;
+    flex-direction: column;
+}  
+}
+.main-about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.main-about-col h1{
+    text-align: left;
+}
+.main-about-col p{
+    text-align: left;
+    padding-left: 0;
+}
+.main-about-col img{
+    width: 100%;
+}
+.red-btn{
+    /* margin-top: 10px; */
+    border: 1px solid #f44336;
+    color: #f44336;
+    background: transparent;
+}
+.red-btn:hover{
+    color: white;
+    background-color: #f44336;
+}

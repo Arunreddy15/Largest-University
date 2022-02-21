@@ -1,0 +1,20 @@
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("https://res.cloudinary.com/imagelinks/image/upload/v1645252179/new%20app/banner2_rlgxwk.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+.cta h1{
+    color: white;
+    padding: 0;
+    margin-bottom: 40px;
+}
+@media (max-width:700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
