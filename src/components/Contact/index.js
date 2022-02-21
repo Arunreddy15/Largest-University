@@ -12,15 +12,11 @@ import emailjs from 'emailjs-com';
 import "./index.css"
 class Contact extends Component{
     state={
-        menu:false,
-        // name:"",email:"",subject:"",message:""
+        menu:false
     }
     onClose=()=>this.setState({menu:false})
     onMenu=()=>this.setState({menu:true})
-    onName=(e)=>this.setState({name:e.target})
-    onSubject=(e)=>this.setState({subject:e.target})
-    onEmail=(e)=>this.setState({email:e.target})
-    onMessage=(e)=>this.setState({message:e.target})
+    
     onSubmit=async(e)=>{ 
         // const{name,email,subject,message}=this.state
         e.preventDefault()
@@ -34,11 +30,11 @@ class Contact extends Component{
         });
     }
     render(){
-        const {menu,name,email,subject,message}=this.state
+        const {menu}=this.state
         return<>
         <section className="header-sub">
                 <nav>
-                    <a><img alt="logo" src="https://res.cloudinary.com/imagelinks/image/upload/v1645252188/new%20app/logo_evmovp.png"/></a>
+                    <img alt="logo" src="https://res.cloudinary.com/imagelinks/image/upload/v1645252188/new%20app/logo_evmovp.png"/>
                     <div className="nav-links">
                         <ul>
                             <Link className="navs" to="/"><li>Home</li></Link>
@@ -96,10 +92,10 @@ class Contact extends Component{
                 </div>
                 <div className="contact-us-col">
                     <form onSubmit={this.onSubmit}>
-                        <input type="text" onChange={this.onName}  name="name" placeholder="Enter Your Name" required/>
-                        <input type="email" onChange={this.onEmail}  name="email" placeholder="Enter Email Address" required/>
-                        <input type="text" onChange={this.onSubject}  name="subject" placeholder="Enter Your Subject" required/>
-                        <textarea rows="5" onChange={this.onMessage}  name="message" placeholder="Enter Your Message" required/>
+                        <input type="text"  name="name" placeholder="Enter Your Name" required/>
+                        <input type="email"  name="email" placeholder="Enter Email Address" required/>
+                        <input type="text"  name="subject" placeholder="Enter Your Subject" required/>
+                        <textarea rows="5"  name="message" placeholder="Enter Your Message" required/>
                         <button type="submit" className="hero-btn red-btn">Send Message</button>
                     </form>
                 </div>

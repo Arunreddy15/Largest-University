@@ -20,7 +20,7 @@ render(){
     return <>
     <section className="header">
         <nav>
-            <a><img alt="logo" src="https://res.cloudinary.com/imagelinks/image/upload/v1645252188/new%20app/logo_evmovp.png"/></a>
+            <img alt="logo" src="https://res.cloudinary.com/imagelinks/image/upload/v1645252188/new%20app/logo_evmovp.png"/>
             <div className="nav-links">
             {/* <RiCloseFill  className="close-icon" onClick={this.onClose}/> */}
                 <ul>
