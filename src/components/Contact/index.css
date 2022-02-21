@@ -10,6 +10,9 @@
     width: 80%;
     margin: auto;
 }
+.contact-row{
+    display: flex;
+}
 .contact-us-col{
     flex-basis: 48%;
     margin-bottom: 30px;
@@ -18,7 +21,6 @@
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    margin-left:0 30px;
 }
 .contact-us-col span{
     margin-left: 10px;

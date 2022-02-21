@@ -66,7 +66,7 @@ class Contact extends Component{
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.9261452492583!2d79.16071061481065!3d18.350653487508126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccdaf9f56aaf43%3A0xff9136139341d5dd!2sVaageswari%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1645351027415!5m2!1sen!2sin" width="600" height="450" loading="lazy"></iframe>
         </section>
         <section className="contact-us">
-            <div>
+            <div className="contact-row">
                 <div className="contact-us-col">
                     <div>
                         <ImHome className="link edges" size={24}/>
