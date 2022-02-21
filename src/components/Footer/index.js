@@ -13,6 +13,7 @@ class Footer extends Component{
                 <GrFacebookOption size={24} className="fb"/>
                 <GrInstagram size={24} className="gr"/>
             </div>
+            <p>by @runreddy</p>
         </section>
         </>
     }
