@@ -48,7 +48,7 @@ class About extends Component{
                     <div className="main-about-col">
                         <h1>World's Biggest University</h1>
                         <p>Extracting text from a Web page can be done in several ways. The method you choose should depend on the purpose you have in mind for the text. If all your business. </p>
-                        <a href="" className="hero-btn red-btn">EXPLORE TO KNOW MORE</a>
+                        <button type="button" className="hero-btn red-btn">EXPLORE TO KNOW MORE</button>
                     </div>
                     <div className="main-about-col">
                         <img src="https://res.cloudinary.com/imagelinks/image/upload/v1645252182/new%20app/about_xek8vn.jpg" alt="about"/>

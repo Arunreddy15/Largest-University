@@ -5,7 +5,7 @@ class Cta extends Component{
         return<>
         <section className="cta">
             <h1>Enroll For Our Various Online Cources Anywhere From The World</h1>
-            <a href="" className="hero-btn">Contact Us</a>
+            <button type="button" className="hero-btn">Contact Us</button>
         </section></>
     }
 }

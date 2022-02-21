@@ -48,7 +48,7 @@ render(){
         <div className="text-box">
             <h1>World's Biggest University</h1>
             <p>Extracting text from a Web page can be done in several ways. The method you choose <br/>should depend on the purpose you have in mind for the text. If all your business. </p>
-            <a href="" className="hero-btn">Visit Us To Know More</a>
+            <button type="button" className="hero-btn">Visit Us To Know More</button>
         </div>
     </section>
     <section className="cource">
