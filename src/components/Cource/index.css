@@ -19,14 +19,14 @@ h1{
 .cources-container{
     display: flex;
     width: 100%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     align-items: center;
     justify-content: space-between;
 }
 .cources{
     text-align: center;
     background-color: #fff3f3;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     margin: 10px;
 }
 .cource h3{
@@ -43,7 +43,7 @@ h1{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         align-items: center;
         justify-content: space-between;
     }

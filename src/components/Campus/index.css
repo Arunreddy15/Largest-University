@@ -48,6 +48,12 @@
     bottom: 49%;
     opacity: 1;
 }
+.campus h1{
+    font-size: 36px;
+}
+.campus p{
+    padding: 20px;
+}
 @media (max-width:700px){
     .campus h1{
         font-size: 20px;

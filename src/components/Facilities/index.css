@@ -5,7 +5,10 @@
     padding-top: 50px;
 }
 .facilities h1{
-    font-size: 20px;
+    font-size: 36px;
+}
+.facilities p{
+    padding: 20px;
 }
 .facilities-container{
     display: flex;
@@ -35,5 +38,8 @@
     .facilities-container{
         display: flex;
         flex-direction: column;
+    }
+    .facilities h1{
+        font-size: 20px;
     }
 }
